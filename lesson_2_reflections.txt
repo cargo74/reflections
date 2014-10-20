@@ -10,3 +10,22 @@ and will be committed on the next commit.
 This is valuable because it makes it clear what will be committed and
 provides a siimple mechanism for removiing files from the commmit.
 
+Q:How can you use the staging area to make sure you have one commit per 
+logical change?
+A:Add altered files to the staging area as they are completed
+
+Q:What are some situations when branches would be helpful in keeping 
+your history organized? How would branches help?
+A:Branches are useful in keeping history organised because you can have 
+multiple mini-projects going in parallel with many people working on each.
+Branches ensure that one person is working on a consistent set of files.
+
+Q:How do the diagrams help you visualize the branch structure?
+A:It is easy to see when a commit is unreachable from a branch
+
+Q:What is the result of merging two branches together? Why do we 
+represent it in the diagram the way we do? 
+A:The code from both branches is iincluded in the resulting commit. 
+This commit has two parents
+
+Q:
