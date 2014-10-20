@@ -28,4 +28,7 @@ represent it in the diagram the way we do?
 A:The code from both branches is iincluded in the resulting commit. 
 This commit has two parents
 
-Q:
+Q:What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+A:Merge does most of the work and flags conflicts. This makes merging more efficient as 
+I only have to worry about ambiguous changes in both branches.
+
