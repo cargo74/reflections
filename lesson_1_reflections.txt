@@ -1,0 +1,36 @@
+Q:How did viewing a diff between two versions of a file help you see 
+the bug that was introduced?
+
+A:Viewing a diff between the old file and the new file enabled me to 
+focus solely on the lines which were different.
+
+Q:How do you like the Sublime text editor?
+A:Well enough, so far. This text editor does not automatically insert line breaks. I must remem
+ber to insert them myself.
+
+Q:How could having easy access to the entire history of a file make 
+you a more efficient programmer in the long term?
+
+A:Easily backtrack to an earlier, working version.
+I don't have a very confident answer for this.
+
+Q:How can you use the commands git log and git diff to view the 
+history of files?
+A: git log allows me to see the commit history of the repository.
+git diff compares two files for changes. It displays the file content
+with red text indicating a line removed from the old version. Lines added
+in the new version are shown in green.
+
+Q:How might using version control make you more confident to make changes 
+that could break something?
+A:As long as the commits are appropriately sized, and the problem is
+identified rapidly, there are two options for dealing witha bug. Git 
+allows a fast analysis of past commits to identify when an error may have 
+been made. Git makes it a simple matter to revert to an earlier version
+rather than try to fix the bug.
+
+Q:Now that you have your workspace set up, what do you want to try 
+using Git for?
+A:I want to develop a google search front end for dvorak keyboardists who
+find themselves on a qwerty keyboard
+
