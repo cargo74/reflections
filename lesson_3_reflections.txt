@@ -17,3 +17,13 @@ Q:What is the benefit of having a copy of the last known state of the remote sto
 locally?
 A:Enables me to detect when the remote has changed. Enables me to revert to the 
 earlier  state if reuired
+
+Q:When would you want to make changes in a separate branch rather than 
+directly in master? What benefits does each approach have?
+A:When collaborating with a larger team, branching code to pursue specific goals
+then later merging with master makes more sense. It enable collaborative
+decision-making about what features and fixes to include in  the Master.
+In a small team, the overhead may be unnecessary, so I would just work directly
+in the master.
+
+
