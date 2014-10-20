@@ -1,0 +1,12 @@
+lesson_2_reflections.txt
+Q:What happens when you initialize a repository? Why do you need to do it?
+A:Hidden .git directory is created with all the necessary files for keeping
+track of file revisions.
+
+Q:How is the staging area different from the working directory and the 
+repository? What value do you think it offers?
+A:The staging area contains a list of files which are being tracked
+and will be committed on the next commit.
+This is valuable because it makes it clear what will be committed and
+provides a siimple mechanism for removiing files from the commmit.
+
